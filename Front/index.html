@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./main.js" defer></script>
+    <title>Archivos Express</title>
+</head>
+<body>
+    <h1>Subir imagen</h1>
+    <form action="http://localhost:3000/upload" method="post" enctype="multipart/form-data" id="formSubirImagen">
+        <label for="imageInput">Selecciona una imagen:</label>
+
+        <br/>
+
+        <input type="file" name="imagen" id="imageInput" />
+
+        <br/>
+
+        <button type="submit">Guardar</button>
+    </form>
+</body>
+</html>
